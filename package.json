@@ -1,0 +1,29 @@
+{
+  "name": "odin-book",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undisclosed64/odin-book.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Undisclosed64/odin-book/issues"
+  },
+  "homepage": "https://github.com/Undisclosed64/odin-book#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
